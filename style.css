@@ -1,0 +1,128 @@
+div
+{
+ background-color: rgb(43, 43, 49);
+ font-family: 'Lucida Sans';
+ font-size: 120%;
+ border-top:0.3px black solid;
+ padding: 0.6%;
+ text-align: center;
+
+}
+
+.all2
+{
+    background-color:rgb(53, 53, 53);
+    height: 1317px;
+}
+
+.heading
+{
+font-style: Verdana;
+color: rgba(164, 166, 240, 0.986);
+height: 5%;
+background-color: rgb(43, 43, 49);
+}
+.Logo{
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.categories
+{
+    color:rgb(255, 255, 255);
+    font-size: 4mm;
+    font-style:Verdana;
+    display:inline-block;
+    overflow: hidden; 
+    background:no-repeat right rgb(43, 43, 49);
+    width: 5%;
+    height: 4%;
+    padding: 4px;
+    margin-left: 0.5%;
+    outline:none;
+    border:none;
+}
+
+.people
+{
+    font-size:larger;
+    font-style: Verdana;
+    color: rgb(207, 205, 204);
+    position:absolute;
+    top:0;
+    left:0;
+    width:120px;
+    height: 1310px;
+    margin-left:0.4%;
+    margin-top:3.5%;
+    display: block;
+    border:none;
+}
+ .people img
+{
+    height: 85px;
+    width: 90px;
+    position: relative;
+    top: 20px;
+    left:1px;
+    border-radius: 100px;
+    display:block; 
+    margin:15px auto 40px;
+}
+
+.people img:hover
+{
+   
+    transform: scale(1.1);
+    transition-duration:0.7s;
+}
+
+
+.place
+{
+    
+ width: 100%;
+
+}
+
+   .input
+  {
+      background-color:rgb(207, 205, 204);
+      font-size: 4mm;
+      font-style:Verdana;
+      width: 17%;
+      height: 3%;
+      padding: 5px;
+      margin-left: 57%;
+      outline:none;
+      border:none;
+  }
+  
+
+
+  .all
+  {
+    transform:scale(2.3);
+    position: absolute;
+	top: 285px;
+	left: 2.6%;
+    width:808px;
+    height:330px; 
+    overflow:hidden;
+    margin-left:31%;
+    padding: 0px;
+    
+   
+}
+
+
+
+.all img
+{
+    width:808px;
+    height:330px; 
+}
+
