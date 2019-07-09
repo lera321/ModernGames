@@ -39,24 +39,3 @@ window.onload = function () {
 }
 
 
-
-var Search =  document.getElementById('content')
-
- function()
- {
-
- }
- 
-if(Search == content )
-{
- 
-    document.getElementById('content');
-
-
-}
-
-else
-{
-
-}
-
