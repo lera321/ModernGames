@@ -28,8 +28,7 @@ a
 }
 .companys-logo{
     width:20%;
-    /* border-radius:100%; */
-    padding-top:1%;
+    padding-top:2%;
 }
 .video
 {
@@ -65,3 +64,4 @@ a
 .transition:hover { background: rgba(255,255,255,.2); }
 
 .transition:active { background: white; }
+
