@@ -1,4 +1,25 @@
-a
+.grow
+{
+    transition: 0.3s; 
+}
+.grow:hover
+ {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition-property: all;
+    transform: scale(1.2); 
+  }
+  .content
+  {
+      background-color: rgb(168, 168, 168);
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+  }
+
+  a
 {
     color: rgb(255, 255, 255);
     text-decoration:none;
@@ -43,12 +64,10 @@ a
     color:white;
     text-align: justify;
 }
-.content
-{
-    margin-top:1%;
-}
+  
 
-.transition {
+.transition
+ {
     display: inline-block;
     color: white;
     font-weight: 700;
@@ -65,4 +84,9 @@ a
 .transition:hover { background: rgba(255,255,255,.2); }
 
 .transition:active { background: white; }
+
+.cartinka
+{
+    width:200px;
+}
 
