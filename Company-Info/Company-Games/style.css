@@ -10,14 +10,17 @@ a
 {
     background-color: rgb(31, 31, 34);
     height:10%;
-    border-top: 0.1mm  black solid;
-    border-bottom: 0.1mm  black solid; 
+    border-top: 0.1mm  rgb(31,31,34) solid;
+    border-bottom: 0.1mm  rgb(31,31,34) solid; 
 }
 .nav{
     word-spacing:20px;
     margin: 0.5%;
     margin-left: 0;
     margin-right: 0;
+}
+.first-nav{
+    margin-left:57%;
 }
 .nav-botton{
     color:rgb(168, 168, 168);
@@ -66,3 +69,32 @@ a
 
 .transition:active { background: white; }
 
+
+.spoiler {
+    width:100%;
+}
+.spoiler > .title {
+    display: block;
+    padding: 4px;
+}
+.spoiler > .body {
+    padding: 4px;
+    display: none;
+}
+.spoiler > :checked ~ .body {
+    display: block;
+}
+
+.advertising
+{
+    margin-top: 0;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+}
+.advertising:hover{
+    color:rgb(168, 168, 168);
+}

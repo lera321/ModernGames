@@ -61,6 +61,7 @@ body {
   color: #212529;
   text-align: left;
   background-color:rgb(53, 53, 53);
+  /* background-image:url("https://uhl.ua/upload/iblock/6de/6de501604cc9b391c2b34b2406fa1c7f.png"); */
 }
 
 [tabindex="-1"]:focus {
