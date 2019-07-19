@@ -70,27 +70,13 @@ a
     margin-left:42%;
     margin-bottom:1%;
 }
-.transition:hover { background: rgba(255,255,255,.2); }
+.transition:hover { 
+    background: rgba(255,255,255,.2)
+    ; }
 
 .transition:active { background: white; }
 
-
-.spoiler {
-    width:100%;
-}
-.spoiler > .title {
-    display: block;
-    padding: 4px;
-}
-.spoiler > .body {
-    padding: 4px;
-    display: none;
-}
-.spoiler > :checked ~ .body {
-    display: block;
-}
-
-.advertising
+  .advertising
 {
     margin-top: 0;
     display: inline-block;
@@ -102,4 +88,19 @@ a
 }
 .advertising:hover{
     color:rgb(168, 168, 168);
+}   
+
+.hide, .hide + label ~ div {
+    display: none; 
+}
+.hide + label,
+.hide:checked + label {
+    padding: 0;
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+}
+.hide:checked + label + div {
+    display: block; 
+    background: rgb(31, 31, 34);
+
 }
